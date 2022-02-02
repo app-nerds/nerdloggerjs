@@ -8,3 +8,5 @@ build: ## Creates a single file bundle
 	@npm run build
 	@cat ./VERSION ./dist/logger.js > temp && mv -f temp ./dist/logger.js
 
+publish: ## Pushes to Github registry
+	npm publish
