@@ -1,5 +1,5 @@
 {
-	"name": "nerdloggerjs",
+	"name": "@app-nerds/nerdloggerjs",
 	"version": "0.1.0",
 	"description": "No dependencies, configurable logger",
 	"main": "logger.js",
