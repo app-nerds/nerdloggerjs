@@ -4,6 +4,36 @@ A simple, no dependency, configurable logger for NodeJS.
 
 ## Install
 
+Add the following line to your **.npmrc** file. 
+
+`@app-nerds:registry=https://npm.pkg.github.com`
+
+Add the following to your **.yarnrc** file.
+
+`"@app-nerds:registry" "https://npm.pkg.github.com"`
+
+```bash
+yarn install @app-nerds/nerdloggerjs
+```
+
+## Getting Started
+
+Basic usage is simple.
+
+```javascript
+const { Logger } = require("nerdloggerjs");
+
+const logger = new Logger();
+
+logger.debug("this is a test");
+
+logger.info("test #2");
+
+logger.error("this error has additional metadata", {
+  who: "Adam",
+  message_id: "abcdefg",
+});
+```
 
 ## License
 

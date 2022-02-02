@@ -3,7 +3,10 @@
 	"version": "0.1.0",
 	"description": "No dependencies, configurable logger",
 	"main": "logger.js",
-	"repository": "github.com/app-nerds/nerdloggerjs",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/app-nerds/nerdloggerjs.git"
+	},
 	"author": "Adam Presley",
 	"license": "MIT",
 	"private": false,
