@@ -7,6 +7,9 @@
 	"author": "Adam Presley",
 	"license": "MIT",
 	"private": false,
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
 	"scripts": {
 		"build": "rm -f ./dist/* && node ./esbuild.js"
 	},
