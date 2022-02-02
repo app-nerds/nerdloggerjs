@@ -1,0 +1,16 @@
+{
+	"name": "nerdloggerjs",
+	"version": "0.1.0",
+	"description": "No dependencies, configurable logger",
+	"main": "logger.js",
+	"repository": "github.com/app-nerds/nerdloggerjs",
+	"author": "Adam Presley",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"build": "rm -f ./dist/* && node ./esbuild.js"
+	},
+	"devDependencies": {
+		"esbuild": "0.14.17"
+	}
+}
