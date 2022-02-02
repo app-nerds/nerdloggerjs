@@ -1,6 +1,8 @@
 const ConsoleWriter = require("./console-writer.js");
 const LogLevels = require("./log-levels.js");
 const JSONFormatter = require("./json-formatter.js");
+const BaseFormat = require("./base-format.js");
+const now = require("./date-time.js");
 
 class Logger {
 	constructor(
@@ -136,4 +138,6 @@ module.exports = {
 	LogLevels,
 	ConsoleWriter,
 	JSONFormatter,
+	BaseFormat,
+	now,
 };
